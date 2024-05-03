@@ -29,7 +29,7 @@ button {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 1200px;
     min-height: 120px;
@@ -85,7 +85,9 @@ footer a {
 
 /*/////////Menu//////////*/
 
-.content-menu {
+.content-menu { 
+    display: flex;
+    justify-content: center;
     width: 600px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -246,4 +248,19 @@ footer a {
     padding-left: 11px;
     width: 450px;
     font-weight: 500;
+}
+
+/* footer */
+
+.footer {
+    align-items: center;
+    bottom: 0;
+    color: black;
+    display: flex;
+    font-size: 18px;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 8px;
+    padding: 50px;
+    width: 100%;
 }
